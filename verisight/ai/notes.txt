@@ -1,0 +1,9 @@
+Notes:
+
+prepare_fever_split comes from preprocess.py.
+
+Tokenization uses pair encoding (claim, evidence).
+
+fp16 enabled if torch.cuda.is_available().
+
+You can tune per_device_train_batch_size depending on GPU memory.
